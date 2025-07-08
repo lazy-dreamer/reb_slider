@@ -441,7 +441,6 @@ section {
       position: absolute;
       left: 50%;
       top: 50%;
-      
     }
     &:hover, &:focus {
       background: #fff;
@@ -451,6 +450,7 @@ section {
     right: -12vw;
     &:after {
       transform: translate(-50%, -50%) rotate(45deg);
+      margin-left: -.1rem;
     }
     @media screen and (max-width: 1829px) {
       right: -10vw;

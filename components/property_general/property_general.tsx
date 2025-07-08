@@ -36,7 +36,6 @@ export const PropertyGeneral:React.FC<Props> = ({className='', listed_date, foun
       <span className={s.subtitle}>Market value</span>
     </div>}
     
-    
     <div className={s.general_item}>
       <span className={s.title}>{daysClose}</span>
       <span className={s.subtitle}>{daysClose == 1 ? 'Day' : 'Days'} close</span>

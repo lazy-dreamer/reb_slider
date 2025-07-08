@@ -37,7 +37,11 @@
     display: none;
   }
 }
-
+.slide_count_main {
+  text-align: center;
+  display: inline-block;
+  min-width: 3rem;
+}
 .custom_arr {
   display: flex;
   width: 1.8rem;
