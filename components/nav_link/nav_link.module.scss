@@ -1,0 +1,18 @@
+@use "../../styles/variables" as *;
+
+.nav_link {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  line-height: 1;
+  
+  &:global(.active) {
+    color: $yellow;
+  }
+  &:hover {
+    color: $yellow;
+  }
+}

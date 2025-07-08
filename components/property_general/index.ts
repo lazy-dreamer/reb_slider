@@ -1,0 +1,1 @@
+export {PropertyGeneral} from './property_general';

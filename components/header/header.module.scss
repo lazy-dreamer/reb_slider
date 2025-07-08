@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 8;
+  border-bottom: 1px solid #EBECEE;
+  background: #fff;
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+}
+.header_container {
+  display: flex;
+  align-items: center;
+}
+.header_right_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: calc(100% - 32rem);
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  > *:not(:last-child) {
+    margin-right: 1rem;
+  }
+  .header_cta {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}

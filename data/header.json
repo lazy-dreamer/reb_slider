@@ -1,0 +1,34 @@
+{
+  "logo": "/logo.png",
+  "nav_list": [
+    {
+      "name": "Main",
+      "href": "/"
+    },
+    {
+      "name": "About",
+      "href": "/about"
+    },
+    {
+      "name": "Resources",
+      "href": "/resources"
+    },
+    {
+      "name": "Expert Positioning",
+      "href": "/expert"
+    },
+    {
+      "name": "Blog",
+      "href": "/blog"
+    }
+  ],
+  "header_cta": {
+    "text": "JOIN FREE",
+    "href": "/"
+  },
+  "header_auth": {
+    "icon": "/auth_icon.svg",
+    "text": "Sign in",
+    "href": "/"
+  }
+}

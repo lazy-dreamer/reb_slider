@@ -1,0 +1,25 @@
+@use "@/styles/variables" as *;
+
+.main_btn {
+  background: $yellow;
+  color: $dark;
+  display: inline-block;
+  padding: 1.5rem 4rem;
+  font-weight: 600;
+  @include transition;
+  border-radius: 6rem;
+  box-shadow: 0 0  2.5rem rgba($yellow, 0.5);
+  text-align: center;
+  &:hover {
+    box-shadow: none;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  @media screen and (max-width: 370px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.3rem;
+  }
+}

@@ -1,95 +1,71 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import {MainPage} from "@/components/pages/main_page";
+import {Metadata} from "next";
+import {fetchData} from "@/services/fetchData";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Real Estate Bees",
+};
+
+export interface IPropertyReview {
+  id: number,
+  title: string | null,
+  price: number,
+  market_value: number,
+  building_size: number,
+  land_size: number,
+  land_unit: string,
+  beds: number,
+  baths: number,
+  address_full: string,
+  slug: string,
+  thumbnail: {
+    url: string,
+    webp_url: string
+  },
+  cap_rate: number | null,
+  potential_profit: number | null,
+  estimated_payment: number,
+  relation_label: string,
+  multifamily_units: number | null,
+  buildings_count: number | null,
+  listed_date: string,
+  found_date: string,
+  close_date: string,
+  representatives: {
+    id: number,
+    first_name: string,
+    last_name: string,
+    image: {
+      url: string,
+      webp_url: string
+    },
+    role: string,
+    rating: number
+  }[]
+}
+
+export interface ISectionData {
+  sectionBg: string,
+  sectionTitle: string,
+  titleLink: string[],
+  subtitle: string,
+  features: {
+    icon: string,
+    title: string
+  }[],
+  cta_btn: {
+    text: string,
+    href: string
+  },
+  data: IPropertyReview[]
+}
+
+export default async function Home() {
+  const screenData = await fetchData("property-reviews");
+  
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    <>
+      <MainPage data={screenData} />
+    </>
   );
 }

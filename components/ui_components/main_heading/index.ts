@@ -1,0 +1,1 @@
+export {MainHeading} from './main_heading';

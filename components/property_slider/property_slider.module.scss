@@ -1,0 +1,59 @@
+@use "@/styles/variables.scss" as *;
+
+.slider_wrapper {
+  width: 135rem;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 4.5rem;
+  
+}
+.slider {
+  max-width: 68rem;
+  margin-left: -1rem;
+  @media screen and (max-width: 767px) {
+    max-width: 56rem;
+  }
+  @media screen and (max-width: 420px) {
+    max-width: 32rem;
+    margin-left: 0;
+  }
+  @media screen and (max-width: 370px) {
+    max-width: 28rem;
+  }
+}
+
+.slider_count_info {
+  color: $dark;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 5.8rem;
+  left: 2rem;
+  z-index: 2;
+  >*:not(:last-child) {
+    margin-right: 1rem;
+  }
+  @media screen and (max-width: 420px) {
+    display: none;
+  }
+}
+
+.custom_arr {
+  display: flex;
+  width: 1.8rem;
+  height: 1.8rem;
+  align-items: center;
+  justify-content: center;
+  img, svg {
+    max-width: 1.4rem;
+    max-height: 1.4rem;
+    * {
+      @include transition;
+    }
+  }
+  &:hover {
+    svg * {
+      fill: $yellow;
+    }
+  }
+}

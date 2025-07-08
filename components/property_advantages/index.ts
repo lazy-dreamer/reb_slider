@@ -1,0 +1,1 @@
+export {PropertyAdvantages} from './property_advantages';

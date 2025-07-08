@@ -1,0 +1,106 @@
+@use "@/styles/variables.scss" as *;
+
+.block {
+  width: 26rem;
+  position: relative;
+  margin-right: 0;
+  margin-left: auto;
+  padding-left: 10.5rem;
+  @media screen and (max-width: 767px) {
+    width: 24rem;
+    padding-left: 10rem;
+  }
+  @media screen and (max-width: 420px) {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+.seller {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: absolute;
+  right: 0;
+  bottom: 1rem;
+  width: 100%;
+  @media screen and (max-width: 420px) {
+    position: relative;
+    min-height: 4.5rem;
+    padding-left: 7.5rem;
+  }
+}
+.seller_img {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid $yellow;
+  box-shadow: 0 .5rem 3rem rgba($yellow,.3);
+  @media screen and (max-width: 420px) {
+    width: 6.5rem;
+    height: 6.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+.seller_info {
+  width: calc(100% - 10rem);
+  padding-top: .7rem;
+  @media screen and (max-width: 420px) {
+    color: $dark;
+    width: 100%;
+    padding-top: 0;
+  }
+}
+
+.seller_name {
+  font-weight: 500;
+  font-size: 1.6rem;
+  &:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+  @media screen and (max-width: 420px) {
+    font-size: 1.5rem;
+    line-height: normal;
+    &:not(:last-child) {
+      margin-bottom: .3rem;
+    }
+  }
+}
+.seller_position {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.3rem;
+  
+  >*:not(:last-child) {
+    margin-right: .5rem;
+  }
+  img, svg {
+    max-width: 1.8rem;
+    max-height: 1.8rem;
+    flex-shrink: 0;
+  }
+  @media screen and (max-width: 420px) {
+    color: #818692;
+    line-height: normal;
+    svg * {
+      fill: #818692;
+    }
+  }
+}
+
+.seller_rate {
+  color: $dark;
+  display: flex;
+  align-items: center;
+  line-height: 2.8rem;
+  >*:not(:last-child) {
+    margin-right: 1rem;
+  }
+  @media screen and (max-width: 420px) {
+    padding-left: 7.5rem;
+  }
+}

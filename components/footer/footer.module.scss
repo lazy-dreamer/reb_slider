@@ -1,0 +1,13 @@
+.foorter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width: 991px) {
+    display: none;
+  }
+}
+.footer_image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}

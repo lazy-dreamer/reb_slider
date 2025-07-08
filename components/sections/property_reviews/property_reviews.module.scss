@@ -1,0 +1,31 @@
+.pr_sides {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (max-width: 991px) {
+    display: block;
+    >*:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+}
+.content_side {
+  width: 54.5rem;
+  @media screen and (max-width: 991px) {
+    width: 100%;
+  }
+}
+.sliders_side {
+  width: calc(100% - 56rem);
+  max-width: 87.5rem;
+  @media screen and (max-width: 991px) {
+    width: 100%;
+    max-width: 100%;
+  } 
+}
+
+.btn {
+  @media screen and (max-width: 420px) {
+    min-width: 100%;
+  }
+}

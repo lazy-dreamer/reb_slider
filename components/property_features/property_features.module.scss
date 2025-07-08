@@ -1,0 +1,45 @@
+.features_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -.25rem -.75rem;
+  >* {
+    display: inline-flex;
+    margin: .25rem .75rem;
+  }
+  @media screen and (max-width: 420px) {
+    >* {
+      margin: .25rem .65rem;
+    }
+  }
+}
+
+.feature_item {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.5rem;
+  line-height: normal;
+  >*:not(:last-child) {
+    margin-right: .5rem;
+  }
+  @media screen and (max-width: 420px) {
+    font-size: 1.3rem;
+  }
+  @media screen and (max-width: 370px) {
+    >*:not(:last-child) {
+      margin-right: .3rem;
+    } 
+  }
+}
+
+.ico {
+  max-width: 1.6rem;
+  max-height: 1.6rem;
+  flex-shrink: 0;
+  @media screen and (max-width: 420px) {
+    max-width: 1.4rem;
+    max-height: 1.4rem;
+  }
+}
+.text {
+  align-self: center;
+}

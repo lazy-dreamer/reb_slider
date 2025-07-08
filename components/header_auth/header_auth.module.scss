@@ -1,0 +1,18 @@
+.auth_btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 1rem;
+  line-height: 1;
+  white-space: nowrap;
+  >*:not(:last-child) {
+    margin-bottom: .5rem;
+  }
+}
+
+.auth_ico {
+  max-width: 1.8rem;
+  max-height: 1.8rem;
+}

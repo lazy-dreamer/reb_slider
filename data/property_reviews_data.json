@@ -1,0 +1,214 @@
+{
+  "sectionBg": "/bg_property_reviews.jpg",
+  "sectionTitle": "Recently Wholesaled Properties in Houston Texas",
+  "titleLink": ["/"],
+  "subtitle": "Check out some of the recent deals in Houston TX successfully wholesaled via Real Estate Bees platform to our network of real estate investors!",
+  "features": [
+    {
+      "icon": "/feature_icon_1.svg",
+      "title": "Freesh deals daily"
+    },
+    {
+      "icon": "/feature_icon_1.svg",
+      "title": "Off market deals"
+    },
+    {
+      "icon": "/feature_icon_1.svg",
+      "title": "Under market prices"
+    },
+    {
+      "icon": "/feature_icon_1.svg",
+      "title": "Diverse inventory"
+    }
+  ],
+  "cta_btn": {
+    "text": "RECEIVE WHOLESALE DEAL ALERTS",
+    "href": "/"
+  },
+  "data": [
+    {
+      "id": 53742,
+      "title": null,
+      "price": 45678,
+      "market_value": 50500,
+      "building_size": 5061,
+      "land_size": 3378,
+      "land_unit": "sqft",
+      "beds": 2,
+      "baths": 1,
+      "address_full": "5430 West 73rd Avenue, Westminster, CO 80003",
+      "slug": "westminster-co-80003",
+      "thumbnail": {
+        "url": "https:\/\/ddmyezw5lxgds.cloudfront.net\/media_staging\/3112\/conversions\/68651027e2a4e-main-360x203.jpg",
+        "webp_url": "https:\/\/ddmyezw5lxgds.cloudfront.net\/media_staging\/3112\/conversions\/68651027e2a4e-360x203.webp"
+      },
+      "cap_rate": null,
+      "potential_profit": null,
+      "estimated_payment": 273.86,
+      "relation_label": "Wholesale Deal",
+      "multifamily_units": null,
+      "buildings_count": null,
+      "listed_date": "2023-10-23T00:00:00+00:00",
+      "found_date": "2023-10-24T00:00:00+00:00",
+      "close_date": "2023-11-03T00:00:00+00:00",
+      "representatives": [
+        {
+          "id": 1,
+          "first_name": "Peter",
+          "last_name": "Petrov",
+          "image": {
+            "url": "https://staging-reb.realestatebees.net/buy/wp-content/themes/reb_cashin/assets/img/vendor-placeholder-2-45x45.jpg",
+            "webp_url": "https://staging-reb.realestatebees.net/buy/wp-content/themes/reb_cashin/assets/img/vendor-placeholder-2-45x45.webp"
+          },
+          "role": "Wholeseller",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 53742,
+      "title": null,
+      "price": 45678,
+      "market_value": null,
+      "building_size": 5061,
+      "land_size": null,
+      "land_unit": "sqft",
+      "beds": 2,
+      "baths": null,
+      "address_full": "5430 West 73rd Avenue, Westminster, CO 80003",
+      "slug": "westminster-co-80003",
+      "thumbnail": {
+        "url": "https:\/\/ddmyezw5lxgds.cloudfront.net\/media_staging\/3112\/conversions\/68651027e2a4e-main-360x203.jpg",
+        "webp_url": "https:\/\/ddmyezw5lxgds.cloudfront.net\/media_staging\/3112\/conversions\/68651027e2a4e-360x203.webp"
+      },
+      "cap_rate": null,
+      "potential_profit": null,
+      "estimated_payment": 273.86,
+      "relation_label": "Wholesale Deal",
+      "multifamily_units": null,
+      "buildings_count": null,
+      "listed_date": "2023-10-23T00:00:00+00:00",
+      "found_date": "2023-10-24T00:00:00+00:00",
+      "close_date": "2023-11-03T00:00:00+00:00",
+      "representatives": [
+        {
+          "id": 1,
+          "first_name": "Peter",
+          "last_name": "Petrov",
+          "image": {
+            "url": "https://staging-reb.realestatebees.net/buy/wp-content/themes/reb_cashin/assets/img/vendor-placeholder-2-45x45.jpg",
+            "webp_url": "https://staging-reb.realestatebees.net/buy/wp-content/themes/reb_cashin/assets/img/vendor-placeholder-2-45x45.webp"
+          },
+          "role": "Wholeseller",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 53742,
+      "title": null,
+      "price": 45678,
+      "market_value": 50500,
+      "building_size": 5061,
+      "land_size": 3378,
+      "land_unit": "sqft",
+      "beds": 2,
+      "baths": 1,
+      "address_full": "5430 West 73rd Avenue, Westminster, CO 80003",
+      "slug": "westminster-co-80003",
+      "thumbnail": {
+        "url": "https:\/\/ddmyezw5lxgds.cloudfront.net\/media_staging\/3112\/conversions\/68651027e2a4e-main-360x203.jpg",
+        "webp_url": "https:\/\/ddmyezw5lxgds.cloudfront.net\/media_staging\/3112\/conversions\/68651027e2a4e-360x203.webp"
+      },
+      "cap_rate": null,
+      "potential_profit": null,
+      "estimated_payment": 273.86,
+      "relation_label": "Wholesale Deal",
+      "multifamily_units": null,
+      "buildings_count": null,
+      "listed_date": "2023-10-23T00:00:00+00:00",
+      "found_date": "2023-10-24T00:00:00+00:00",
+      "close_date": null,
+      "representatives": [
+        {
+          "id": 1,
+          "first_name": "Peter",
+          "last_name": "Petrov",
+          "image": {
+            "url": "https://staging-reb.realestatebees.net/buy/wp-content/themes/reb_cashin/assets/img/vendor-placeholder-2-45x45.jpg",
+            "webp_url": "https://staging-reb.realestatebees.net/buy/wp-content/themes/reb_cashin/assets/img/vendor-placeholder-2-45x45.webp"
+          },
+          "role": "Wholeseller",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 53742,
+      "title": null,
+      "price": 45678,
+      "market_value": 50500,
+      "building_size": 5061,
+      "land_size": 3378,
+      "land_unit": "sqft",
+      "beds": 2,
+      "baths": 1,
+      "address_full": "5430 West 73rd Avenue, Westminster, CO 80003",
+      "slug": "westminster-co-80003",
+      "thumbnail": {
+        "url": "https:\/\/ddmyezw5lxgds.cloudfront.net\/media_staging\/3112\/conversions\/68651027e2a4e-main-360x203.jpg",
+        "webp_url": "https:\/\/ddmyezw5lxgds.cloudfront.net\/media_staging\/3112\/conversions\/68651027e2a4e-360x203.webp"
+      },
+      "cap_rate": null,
+      "potential_profit": null,
+      "estimated_payment": 273.86,
+      "relation_label": "Wholesale Deal",
+      "multifamily_units": null,
+      "buildings_count": null,
+      "listed_date": "2023-10-23T00:00:00+00:00",
+      "found_date": "2023-10-24T00:00:00+00:00",
+      "close_date": "2023-11-03T00:00:00+00:00",
+      "representatives": null
+    },
+    {
+      "id": 53742,
+      "title": null,
+      "price": 450678,
+      "market_value": 500500,
+      "building_size": null,
+      "land_size": null,
+      "land_unit": "sqft",
+      "beds": 2,
+      "baths": 3.5,
+      "address_full": "5430 West 73rd Avenue, Westminster, CO 80003",
+      "slug": "westminster-co-80003",
+      "thumbnail": {
+        "url": "https:\/\/ddmyezw5lxgds.cloudfront.net\/media_staging\/3112\/conversions\/68651027e2a4e-main-360x203.jpg",
+        "webp_url": "https:\/\/ddmyezw5lxgds.cloudfront.net\/media_staging\/3112\/conversions\/68651027e2a4e-360x203.webp"
+      },
+      "cap_rate": null,
+      "potential_profit": null,
+      "estimated_payment": 273.86,
+      "relation_label": "Wholesale Deal",
+      "multifamily_units": null,
+      "buildings_count": null,
+      "listed_date": "2023-10-23T00:00:00+00:00",
+      "found_date": "2023-10-24T00:00:00+00:00",
+      "close_date": "2023-11-03T00:00:00+00:00",
+      "representatives": [
+        {
+          "id": 1,
+          "first_name": "Peter",
+          "last_name": "Petrov",
+          "image": {
+            "url": "https://staging-reb.realestatebees.net/buy/wp-content/themes/reb_cashin/assets/img/vendor-placeholder-2-45x45.jpg",
+            "webp_url": "https://staging-reb.realestatebees.net/buy/wp-content/themes/reb_cashin/assets/img/vendor-placeholder-2-45x45.webp"
+          },
+          "role": "Wholeseller",
+          "rating": 4.5
+        }
+      ]
+    }
+  ],
+  "meta": {}
+}

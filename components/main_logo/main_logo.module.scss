@@ -1,0 +1,12 @@
+.main_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
+  width: 32rem;
+  padding: 1rem;
+  img, svg {
+    max-width: 100%;
+    mah-height: 100%;
+  }
+}

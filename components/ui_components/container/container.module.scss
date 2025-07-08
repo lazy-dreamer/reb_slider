@@ -1,0 +1,15 @@
+.screen_content {
+  width: 100%;
+  max-width: 149.5rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+
+  @media screen and (max-width: 1649px) {
+    max-width: 125rem;
+  }
+
+  @media screen and (max-width: 991px) {
+    max-width: 72rem;
+  }
+}

@@ -1,0 +1,1 @@
+export {PropertyReviews} from './property_reviews';
