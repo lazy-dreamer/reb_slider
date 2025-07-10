@@ -61,7 +61,7 @@ export interface ISectionData {
 }
 
 export default async function Home() {
-  const screenData = await fetchData("property-reviews");
+  const screenData = await fetchData("property_reviews_data");
   
   return (
     <>
