@@ -410,6 +410,10 @@ section {
   .slick-slide {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    @media screen and (max-width: 600px) {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
     @media screen and (max-width: 420px) {
       padding-left: .5rem;
       padding-right: .5rem;
@@ -462,6 +466,9 @@ section {
       right: -2vw;
     }
   }
+  .slick-prev {
+    display: none !important;
+  }
 }
 .slick-dots {
   bottom: 2rem ;
@@ -470,10 +477,6 @@ section {
   .slick-active button:before {
     border-color: $yellow !important;
     background: $yellow !important;
-  }
-
-  @media screen and (max-width: 600px) {
-    bottom: 1rem !important;
   }
 }
 
@@ -529,6 +532,9 @@ section {
 @media screen and (max-width: 1299px) {
   main {
     padding-left: 0;
+  }
+  .property_slider .slick-next:after {
+    margin-left: -.2rem;
   }
 }
 @media screen and (max-width: 991px) {
